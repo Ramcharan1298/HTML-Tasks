@@ -1,0 +1,19 @@
+<b>       -    Bold text
+<strong>  -    Important text
+<i>       -    Italic text
+<em>      -    Emphasized text
+<mark>    -    Marked text
+<small>   -    Smaller text
+<del>     -    Deleted text
+<ins>     -    Inserted text
+<sub>     -    Subscript text
+<sup>     -    Superscript text
+<!DOCTYPE>  -  document type
+<html>	    -  Beginning of HTML document
+<head>	    -  head of an HTML document 
+<body>	    -  body of an HTML document
+<h1> to <h6>-  heading
+<p>	    -  paragraph
+<!--...-->  -  It is used to write comments in HTML documents
+<br>	    -  breakline
+<hr>        -  Horizontal tag
