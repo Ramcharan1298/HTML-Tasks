@@ -1,0 +1,99 @@
+1.)<b>       -    Bold text
+EXAMPLE::
+       <!DOCTYPE html>                                                 
+This is normal text - and this is bold text.
+<html>
+<body>
+
+<h1>The b element</h1>
+
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+</body>
+</html>
+
+2.)<strong>  -    Important text                             
+EXAMPLE::<!DOCTYPE html>
+
+<html>
+<body>
+
+<h1>The strong element</h1>
+
+<p>This text is normal.</p>
+
+<p><strong>This text is important!</strong></p>
+
+</body>
+</html>
+
+3.)<i>       -    Italic text
+EXAMPLE::
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The i element</h1>
+
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+</html>
+</body>
+
+4.)<mark>    -    Marked text
+
+EXAMPLE::
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The mark element</h1>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+</body>
+</html>
+
+
+5)<del>     -    Deleted text
+EXAMPLE:::
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The del element</h1>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+</body>
+</html>
+
+
+6.)<ins>     -    Inserted text
+EXAMPLE:::
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The ins element</h1>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+</body>
+</html>
+
+7.)<sub>     -    Subscript text
+EXAMPLE:::
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The sub and sup elements</h1>
+
+<p>This text contains <sub>subscript</sub> text.</p>
+<p>This text contains <sup>superscript</sup> text.</p>
+
+</body>
+</html>
+
+
+
