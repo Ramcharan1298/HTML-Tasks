@@ -1,0 +1,31 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/5361625.jpg');
+    
+}
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+}
+div{
+    font-size: 20px;
+    width: 10px;
+    
+    color:chocolate;
+    border: 2px;
+    width: 200px;
+    height: auto;
+    background-color:antiquewhite;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    color:cornsilk;
+    font-size: 20px;
+    border: 2px;
+    width: ;
+    height: ;
+    background-color:;
+}
+h3{
+    color: cornsilk;
+}

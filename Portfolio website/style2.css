@@ -1,0 +1,71 @@
+body{
+    background-image: url('https://comindesign.fr/wp-content/uploads/2018/08/website-design-slider-background-stockton.jpg');
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    border-right: center blue;
+}
+nav ul li{
+    margin: 0 1rem;
+    width: 150px;
+    height: 40px;
+    background-color: cyan;
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color:rgb(243, 12, 151);
+    text-decoration: none;
+    font-size: 25px;
+}
+nav a:hover{
+    color: chartreuse;
+    
+}
+
+
+
+
+
+
+.header h1{
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    display: flex;
+    font-family: 'Tourney', cursive;
+}
+.button a{
+    position:center;
+    display: inline-block;
+    color: aqua;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 12px;
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 15px 30px;
+    overflow: hidden;
+    
+    
+    
+}
+.button a:hover{
+    color: black;
+    background-color: rgb(130, 226, 26);
+    box-shadow: 0 0 80px rgb(252, 16, 165);
+    
+    
+    
+}

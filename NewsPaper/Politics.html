@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNOLOGY</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            padding: 1rem;
+            width: 1000px;
+            max-width: 100%;
+        }
+        nav{
+            border-top: 2px solid #c4c4c4;
+            border-bottom: 2px solid #c4c4c4;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin: 0 2rem;
+        }
+        nav a{
+            color: black;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        p{
+            font-size: 17px;
+        }
+        .row{
+            display: flex;
+        }
+        .col{
+            padding: 1rem;
+            flex: 1;
+        }
+        .col{
+            border-right: 2px solid #c4c4c4;
+        }
+        p{
+            line-height: 1.5rem;
+            letter-spacing: 1px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <br>
+    <hr><hr>
+    <center><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAABMCAMAAACGYDlKAAAAsVBMVEX///8zMzMAsc0vLy8qKioAAAAArssArMotLS3w8PAbGxsnJycfHx8iIiKMjIz5+fkXFxfNzc3l5eURERHExMRxcXFMTEyUlJR+fn6qqqrd3d1DQ0M5OTnW1tampqazs7Oenp5ZWVk9PT1VVVV7zt+xsbHL6/Kk2+iEhITk9vl0dHRiYmK9vb2Xl5dzc3NnZ2eP0+O54uzZ8fY6u9Nnx9vF6fBtydyZ2OYsudKF0eFTwtgNSkIoAAAdVUlEQVR4nO2d6XqbvBKARQCbfTdgFhvbdUpsHDdJm6a5/ws7ktAGxo6dNM2X82R+9KkJixCvRqPRaATASXGvv//5+fB0BeXp+fHP92v39Plf8iUvinv37Wk8gnJFZDQaj8dPf359dMG+5DPL3fOYIyXKaDz6ef3RpfuSzynuD4jPEFWUravvH13EL/l84n47RVUr49Hvjy7ml3wy+f0yVhitq7uPLumXfCK5hsScKeOHm48u7Zd8Fvl2NlYYrS9T60vOkZuni7iCZD1/dJG/pCu7jy7AkFwPOxhOyejqdHeo64c/s6ETk47rVa9eUfxMf/mcTy1BtN45jrObzf1j77pP6f/mg9X8IXJ3oboiaN0fvWGzNcIwLPa7KMC/S8eC/wbVwJn2svPTCJPLyx9J/8/zAn6qhZZtmopp2rZlhEY82c39Ll9+Hjbkv5vQDv59IQfldVzB7vAIWVluaBISzbQ8LV7EphGu4fHFwQsHK8N0hN+pJ0ledfEL+GHxf6uz1oWhSF2RFdM2PDvfO9U88v1o7iwNOWxroJRM+Pf/Rm38eiVXkKzB3rBU5U41yPCnDY9nVv/MJNQke85+ZrBSoITz/nkviW/Iln/pRZ9CstySpSMia1CFWVBsU5a0BT4/CdHpcvFf0OA3F5tXggy8gGsf1oGCDIB60j2xXKIzjZL+noakDsNLISkNeFF18Zu/WbLy5XPeJGv1KFY9sVBr1FcWqe/VOxfsHHkDVlejh8P7OSZS1kqnRixkAJhV57y2cUkGVdt7lZ1uXGgkZB56xuJfdwA7NXrfB8zCM7GSlkvYxEvTor/Nyct3f2d5fovCuhr/ObihKZnetk5XoWEjazM2l9Bugt9cVxvhLD0mik0hB+S5z6pRvtAY1/GVmtG8fOrfE6hwjffVWNHZXNkOHPL4KtgZrG1+tPfhtYY7I6sf71B60PrW0aA4m++qZr6d5a2J5atCD9fQbk+mg8JIBlOPVotaXfYWpKV6+3+ntGr4Bt67Pk6n+keBY0HDMwxkTSlDfaPlLFBLXNRgQu0QTf1YA959k77C0rtjpPrrYrtZSNuZH1VxEuSyJKMuf67y9p3u6UhHXtBjyRY4bVXKeAx5iSzpJ7D+kdIqCzTOsN/VRnbwUEbxinTtZ4EeZGW0rtKFFBqWLfIlh46DX9u1p2Bhtios/uCB4c9LwBJj/9oDz89Xo15nGKX7Gf5P0FQVtEGWGqycDfw9VZnjbuXrVDlp3BiYOGCDGpwpXezhW7B6/jdKyyEK910fgro1LawDUK6dze1kkjpV4yPrM/Cn9dYMPQgYFK/wZ8Rlo8NOIUdNNqzftWQvyz3qCFF46BhFjB4ENwgcjcZXDz8fH38+oNNHOL50NH4Czwc+h1LqjOm2BWp16D13KjPJ95lLjQEl5eeuKjAxJe/28veouatHCaeXX3+ZZMu2w5Hz93xKBKvIXujlZL9uve2unvnNrN6k9Qz7nfUymk+nTeDumT2VwV4hl/+xsTkkD2hq5vf9zf2vu+/ff93/HI3A9zFn6RE8jghhP7gzFJ39+8efP79/4SHl6Gfnlu5G/LXZI1epid484WDNGmBSDsS2Fc/AwntNpcwMoWuw4ved06hWBGM5ftfHmNB20rfVQHerzyx1GW92s3nTVNu98LolJMv758PjA7mGEIkOg2+jMbfmx89QFT21XP08cYO+yhIrwpnhto0dDQ4Hq6kABUHUWFBnrVavqpToNrY4WfJrpoXOls2U9uPa9h0fA1JFSbMhRtxpbCNX307dNfPG74JXqvHsPUt1njyPRCpcDBbRWOMHPNzDCmv0eOwGWKGNvh37c9O0VrWN3lUAK6tBMQgWuNRqJxJswNo2OVq29H6O+H3AwHpXZ1FqFuXAA/xNaMsY6ak69JLlf2AK+gYyxKJfbn7eCGA93bEz4I9TN0AQHvmzW09bY8RGZo8AFuTgCFivFalBFrUmKK3Je/UHTknB+ktlP/YcY7bvH3OnuafQLmAYrP+C/Bi12uYGyo/xHeBg0Ti+e/HHoTyQTvPICYlOOrw+WPrkb4PlVnkEgoXHTS3FeCcjfuf/G7Bmym2vbQS1asu8Qv+7YLXW0288KByj7u4ArDtuQ13//vb48/HP97tr2nneP9FB48DEDhKnNC4FS3cObVV315/hgTbaoVSrDESSMFE5aMTPDu8/O+U/b3hvRJ46axhYQmBGIJRRFwM2epL1zT99d2ReyNeq3hGriYglaSOT4UhXOOBy1w/MrunBpdHpqf8sPeGz0/f8HWrqawBj7uc8AOs7QmcMb3l31XoYRpBA2GU+3V8/CCHyw1EOkV+ZF4KVhLbUp2hq216nGqaSZRVDloQDm3glBJnIYd2rjUiyzF6V+rl1fP462HpmTh9Vt+Pdas6ccPkWyWKVK6E4X5Vb8pGvpG9CayWWKUhDM9wMnyz4zt01GjxPsoy2VHT/IbD0SWgt+ggkodE55u5sK+zZtoVhHB9MuvM4NI4PiKaWwoZLbgjAb6xw2nFfOzMzDNbohvkgRmNoiYHH8fj6WpwKGu4LKzdVLgKrkaG+ka0OM2WOGmnIP9scnQSZGfJK6BMHuJuQ94emIp7m3qI/dTBqzzaGrXC9Rlab7E3wyMslw62CgyVpSFBckOh5QN4IqxgahswQ9cqSfWS9bi2mfPCTsnK6iYHjYJK5650Gq0L3M/MOWbhWFeFYZaH2bi75Q5sCBeco5rDq9lML9cDekciAaIm+kKlV+O+RwSwkwZ9wRGPdk8Hh1egZebMgU6Pra9GZOuyOSMFWuwAsfd/Wmiy+QU0oCYmuzWLqWR2e9mm8uXAOFINHF0Zmy7nHXWdrqz009Gl1xyMKV7OM5SI3QlzvkSqAxSTk36SdVJFtK+l9iYC4RDQaLTU16ANORubNDLv9+3oH7FNgZXn7Z0Vw3OrbtrAM50gm95BpoCmsr+PxSqVjhm0dKQdDCXy7nF5sGma8Ugw4XhV0DplKPqKxft+NkI/0kXR59wdgHUwYYknB6gLjvbHY9KFGq7ksmMkUYj3mCNooPLRNgtTS4pUP5gp3PWj0sSmLFbDIM4MVO6RpPQqyVE1F1xjUSm0cRm6tD8Eyud5dsEeb4WouAFOxsrfRUoHgetOKoQpsCwJVNvngTQ2kE2Dt2ANMNgHbMMugfag74RETsoxZS8Q67daC78ievaf9ziF27rrYy+KspSyZ09bE6oIxDFaL3jfwa3QUrEEj6yKw6tBmECmkXmahxSZbZc2Fn8KWLG6dG71mXk5g27IbsINKKuGuhzYEISs8mx0ysHU9U4sJ022yLfTA7nwVKgaoOwCZWNE1oSGApbQi80nDlRjmKNvGft2+tbvwTPYnG95q7mmax0pkDqoDKHP42U2iYn3mpRkAS18ZJmPaIhY8tOA6D/VhWT1mhCpQuwS5LXvsOpkDHswnJtKo8j4gLMq9qdGytm27CrohrqHeCZghnqqjYI2u7pHT6jhYQ8lCUhCfC5aeq2GQ8WAibM3sVbXUGVnmxvcsw8oa1uSUhfi0aIVrzMtQp7qBXQD9aJi/HbyXu2AqAtrFkNJtCvUkq1Pam+nzvYFsCljtM6Exk9ZcOFvmeZdip0bieLQj1It4Ieg5KJodIlVRWmouxO2Ffq1a4a2+ZZ/9yEyWgy6hQRT+BCzlI2D5oRpDE4s9oMSlURUhqCv0Z/ChCz3l9dxEoeXlUNfRI5ThRsmZrgN7atEI9rufFLi+w0xfCm1J22Mv1rlg4UBR5qYfAGvUt96DTL8ArFLd62sNMLJQkFagxFkZ6pwsRZVmbpODktVLyJSMXsmkqzfwRyiXDaCnoUj7NM/0PAEJrQKoxSYVVAcSSGhrtWNcvGm+JStB8iSG9DGlomAD36nAesY9766OHjevSDEyU0X9sN1pw+gN56rj1nsh4MxQtxEqQkpLNDyhneYSmbfAb7U/CtZUTcAm5WQhQHx1otexQBaEe+2mNUhYDSqqVum7FdSL9AgZis5mgB4yplRlsZ5S3xer9iWVnRmBHVd56JM8UjTGKExBAAtJF6ynFqcTYP3oVohueSFsCV2wTFkjAk2SDlgZaq5TCfjUroS1rKNrytDNaNWb2FovTeDTemEBnFU+o2eRgNSsdkWwMG31loXX0Ai9mIFFJ8OdCNCPA6bQqvD3KBJWsZV2FUyabuKp6G5YxHFOpwwbNS5X8H3WS09YWIO85FGJr2VPk1sXW50wbTAIlrNBYFl0QHcCrAjdb5KwMA+09ilCRmi6AFNaNwW2SncTUFMQTOxEbpZgRvUsGTlFCW2Y8n4LJuSuGgml1w2wJnMqjZunwN1JIawk08a25jOF4u7X3S8O1s09khsRrBH6hTg8DlYvwqGQcVX1wGJ1raRD7gbHoUd5LTd7fpP2iB8Dak0ysOqGjsMlYiSUHCybPUA+AZZFhgLTKQcLKiw4EgD+NHHWKRuETmdDDlJUChU5pCLJ0eFYSmGqji9DWviB0X3rfUQLPgRWg2NDeA2dAIu8TkmVPl9Ut53S+FoaU1nPWAiASV6J1zIBy0/pOEHbl4lOVZZFlKdBaUUFmYWVi6LvnF2DrbAnoq+EXgyB1ZF2VIjP4Db6EFjdBfc4ruRisPzJIVg6vwltuCa7E9dYTInQSGcBLBpUD1zpDLCinQAWGhBY6bwMgjkv5oyDJYb8BLFK2IsWqzW04agustjodTbvg+U7tMcZAEsv5lbn+hfBSppDsOaJ2wNLMEQIWMAG2y5YwR7k7RFti2qJKj3SGcoiWPDFpFUVZUG5wHp4QNcMg4WHjPfjU2BddcBqDYf3Aks5BGta6b2GL4Al03udBZafdMBCt4IKKxE86cNgzVVhMkBv0oL1SnzFY3UIVnICrL2/FN/7lWCtD8AKDsFSeM205OhbWu8QrGzCVBzpDHO3AxY8P6ocp2prgCAhFmwQrDbR2t35YE1VE4l9ABYT4y+DNT8FFhsknweW0werL0NgBVu1NyG94GAxjXMZWNkWzwwKPv1/CdZCAAtMsohWilXhetN7YIlChnM3WNpDCCz3GolgY7U04fmfs8Aq9zMs07gHlrGbEdkNhs28Hqxmx8Ain+HVYJWvAqtR+1y8HaxJhksrVNA/BMvtgAW/Alv9gofiL4NFAt7H7UdDYF3j32SFBAYL/+9ssNytHpQ+lLIPVtj4RJrbvwtW9PfAep3GQmR13bVvBsstXPwnk0cr/EuwViJYcMDiiq6g02A9ica3ANZIcB8gsJ7Y/84y3m9X+zSpkGz7GquiGqv6yxorSt4PrIN5jGEbyw+tzhTTm8FqqjZGxuZhZR8HFiSpoTWs7g7BysSpoOczwWqZ+XUarKHg5brvIGVWqDsY3fCfBCtVi2k3DOX4qFAMWn0zWJusLZqgEz4QrCBGC6jgPYwYPbQHVmCEEz4L/zi6BKybk8Z730GK5cDzzup9OGzmPwYWnpZ2DBSn4IgN8ghYyJ+jpmxk+GawNOI7/W+ABQfeyP9gLduXYWBhV56OZui9mE5K/TgTLOKVfxgCi63oGQrI+uRgSd62nLX/N709/4ZHwQJuZanxrGXrrWC5BXlxk0d/fiRYYO8UPH6RgSWZyi7IcQuQLa3C1SpOQhOwfg6BRTwQdwNTOuN7Aud5k9CfDCxJs5jrTTNyWqnHwULPnRiqunDmfvxGsPQVgUhITPeBYLmJ6dkccQ4WisNiU6NmiFT2/SFYiKJDsMhS1YcDsMbfXXKP8VBA9KcHqyPQumjPOAVW4MhGOU/zUA3fCFawJa5vmae6+jiwZpZn7IRvLILVEQVldhK7Qnw6VEoDYNGdKGjYzB0cTmKwxt+Y1htcIPZZwVKFBYpiFBv5wsfB8veeSb6V+1aNFbAxtf0RnncBrD2Yy17odLwpEKwjKeHQ2wqhydj/7l4NaizmnP8FSQLXD3gJxvU1joCgK/AHV7R+TrC2KCaZxUoshCC402DpVYHibWgB3mpjwa6QTDbyKSEBrOFVOu8BlhTHYbjpxVTmPohYRJEcFzzYD73tb66y8Pqtp9EhWJgiusPJPbh/JktUr3+hVRW0J2RndORTguXu7AoioOCqsheQMhrZegosdz0x2gAlauu+2XiX6WsqbBGPANbBusIIvdG7gCWH+4NlFP4q9mFx2ugg2PtFbEUneltuZI1Rb/cwOtRYZL8KdsNfj1fYMf/U2l3UYzFoYol+LKS5PwdY6FNItQ7mS0MyknnhuIAsYjsFVsODAciCnze7G0Iwt7uFFcFCdnQHLO/dwFoOrt3JJkWDF6/Jsj+JI5CRG+C3Zb53ZGI9jHEWox5YAK+j6MQusJlFZmH1gmaocLCwNv80YMH7xZMA+AUqWpTT9amnwMq2NL5fI8HrbwZrEQTkMTRcWAALz/OIYNUhXh/2ju6GA9EdZQpHiyiQRk80+lHw29K+EFlLT08/WpdB66B64joInTBoQ7GlhcM9IQSLtGIJR19+IrAgKfvtvEWkmZ4BFiwmuTX9em8GazcFBa0+0hVBsArhegGsJsSXvwdYPOXiocykatN+A7MDFsnpgRQOWzdP1BDf0KRNKDOwcJAn0jqSFIQtVmpXpH0qsGD1k5UD8/UZYMFbk8Ubfw2sciUEMpNDE0DsZawXOViZ197wXbpC69Ta+4a8XBcskjF5JFpIPxgumKy7KzLuu+ptCH3zzBO0HWZOxuLQ5ZVkTeDnAovKWWDBQu3/MljA0NkiBrs93b8lgehaiJ7CwMqsNt/5+4B1Vtr9Hlht9gZh45J7YROw0Q1wOT1X4wehw/v1LKSVHM7cAElq4z4ko2p//n+DNfnbYFUVW8RAkmv7KTa7lHCLPzUFCy3DaV/ofcASVkMdlR5YWGU9/bqj8qeTm3v0u5vLdjR6+PP79+8f3x462UqP5l1z2rekuez/r8HS/j5YrgcCtqeCgR7V7KambBs1MbkIWElI16a9S6AfutB8cUOHPlhtJDuTXnLbw4zKbcaZ3rEjCktf4yVCJp2S+ALrwpj3ZAccvo45DkC91jyJ52HCYJU4XwNZbPsXwbJBJizGf3HXpz5YndiZ18n42N7jUYbsWZ5G4Bywlv8FsPxtoSz3TtOew8Eit56uaZaqdwYLWDrI2SJ8Odxoxa1o7kzVMtvitdrUJZA0wQBY/eVf54AF5itxYwxRZ7WfIVoUZrFISQIBDpZNgmf+/gYCTBy0Gs3mOQmGwRLcJP6mocMgDlbMNgf4V2AFniajnbWsEKcTm/NUDe3fZzmb8OGBBxysU573xqdIngWWn4NAWLCvaZOOr3JmF2TRNvVHJA1dcimAVQWvAQs4KZgKZNHUFrqDO+AM58aQFTvMsQrlYNH1l2/e8uTobpjJzmR5XXBJB8GSbFYFFUv4wVemuFJM2+whWNYhWHQ9urAS2nTZvVj10WkSDhYPLc+ZbaF5cSmAhX2QoNrzby2zhAsMLIkkduNg8b2ppixVwyFYUmc/UFqFNSjF/XQ0w4rrWRNFUVOlSzaLadAn7G1q7QvrCle0AgfAoot5OVh8f6xtBXY80EM20HsFtariKAc+Oy/baOEOA8tk+R0u2pviQAZDR9sXgh2GuXObZJ/LWn67drtg8blxa6uDqVeB9JYxJCkImTKDNqTJjmGwdBEsSYbNyI2QVcu+D85+pVd2Alh9opxj6ymeftuwTA0oxV20UsGOfmuUsW5u6vwAvjZ0CFiy6eFGu4tByadc2T4YGlsrL6ENDPSZze0jb4Yc+DrwNYZkC7YugoXt76xnJU9mkKxOGAFUEu0WhTwPD01cpcd86aaMtzyJXJAteUKdFQOLleO2Dxa+0MUtNl4LWR7QNpLBraq2ORKFNaKoMotAag9pYqbAN3F1fMvxGjbheB9aJuxYcHXkIQdrIRZZsU1vDiIVuAVLeRAmfqw2gZoFLMOGHGdR7KFKSOgHkr3EUWHdZArgW4eZ8UZVNwUo6ZBKW84sGbU3mWwIgg9qO0ndxhFve9ZW8yLQz31lWijPmunlZDUm2ns54OVUoLbIYJdpAJ4Fx9rWoWqXzHEuGZtcXYMqFjSA5eiV6gAftgh6lllMt2o/58y+otuDHhNzRa1YZyvoN9lq5ooSzAuhQzNTvanbnNW0FZhxEO2xG44+RLPXidoq9KJBodlM7FCdkHXSvW3JZBtN6cAB66QRrPybt3SGRzOeTnGDFRubxZf0gsUa1LwlqTij7WwJ3JzVoa2ibKqbWyCQFeJNwaQIqnx6WljgxjUTk6rIXl6CugYztl+P2urnQNUFdg1rDmtIGPzgJya2pig8rTeSRjUcwZOzgVbUlneHtq1WLpiIFolmyL5uA545KkSKLbB8UPGPrC59tKcsyFgApqZuDqszTVGytOHYJ3QbqeZGKmS+5HmjPXWKDMZGyJ5kqmaDNuFzdY3pcxUlUFJLEPOMMQoZIrhaAxLe0Kyc5cowNaW7I6VZ12q87hX/+tVkHfM0oM5OQ1sXQyGPN61O5t68YUmZLJo9tir4F6MvsZ8AvSDRBWGbnhrtRJSSgVpILaN0C3xSp1qbZBQ2N8KuzdLT+rA3pvskevgrNluq6xQTG9mWvKnrSWFwnD2pl5QykXSenk8jCXSLHc6R1pYKGTjNot2fE3HWToroasTOMa32pjNon8skXeXwpgfzZQD8pTGIlmk5O3EF9n4DAkmhteW2D23YHn5Km3cMzG2XNuG2rFC7Z4AkoSNHsLjQiKRtwTTZ1I7ryRvHSWOLJWGEyE4GgiBea8Cf2MZ+U9jaNplNp8kCJ9oM+9mc8zVocGCcsLf4FI6vcb5DjR9MoaLfo1e2l7TeA/iBcEo0ktKKnqfj4Zq1IovEYV0hsjr7n0Rw/ITTmpoaGas5TqvrvAkuoG+4ATJ09GmBEZeN+NDB1UC0232HJWNBoHWh1dp2WjaJM4HDqgyxznd+1SFNJUqEKvPq2EE9jXO1Hd2wK4gTNLoP7a4elRRL2fnb7kTeBtUWwtksaG3pkKa2YB5bnoYqGnPEMpb7UGfhqrc7UTJusQbrEOMmJKBuLFRJLnIQtYkTFa8edqG+iqzRCa5m4e1sXTl1PSuBu5NN+bAxrhygrzQrFkvkQ2TKXKZsYKmgQT01O3gEIbRpc627Yw7SIztTC5liDNQAdmxmN5wIPcGP5ZB3OpsKlFDvkA+UWPtkVy+WiY63qLaKwUR7ARrKJiH8tvy7ussJzgHGG/ytA60xoUDwHJRLaq90dNPURuVWtBMTck1RwWfOtoYHjXYTdkKmbYVa6gdpP7IT1lYA5posUurm0GLawL5DaCFz2OpQpfJV1j7UbH4hH+CdV8C3einza3uS7JJJvm1AABuFfBBgyuW+704/g6uno/0gKI1tvnCmje/PJ94UrPZDplgdu3rYy3avFxuQqd109+iV62VnusrNJyDq75sbwfOcXEASmv6u1q8oXbqFnZ+ohVCKO3bZiqw7juINLIx3dL+jjZnB+3f3RpzAY1tJKNVtCna9vRfTpe72QuUjyPp2sIa4NPEEFTnw55Xj1M5u7esg2m4G1IQPa29qdasmlQJQ3Lrd09Yg7STLD+Bwej0w37ytYQm7m3wUpDkFDhqTqKtTU4k3DxcqrfGxDcGg6LbD38xNj+3DG3n2Yb+cqMt+dekr9WCrB0c9SJMPx5pqN8m9Pjgxv1N7O4xVwu359uGRlJ7aU9MP02U/IXij9tLyJ/0cNKgztvtl0nP15Q27gul2Ua/9ABVJz6Jku+2bykTcvXqQtR4WrK959Vjt71uwH6hTKE6+7dUDjwNz99v4pX21/lxC1uj4/jrocd3yHZ3B1IfeY+jsgSYx2Er617qDZBwcFC6L+B/103uAgH4ad/S8PjMDpdQHyvTiHC85LZomdZpu6l1zSkkMPXRIt51xBMtB6xcqCcxfmkWE3eHV2WiNH453g1/yJX35fZ6lNb4aDkX+ki85Iu6fg22hB7A6Fs7wJV9yVNzfV6fYGo2vThlXX/Ilx+XXz8Pt7ClVj0PJP77kS86Uu29P47EQKoq2KRw//Pmi6kveLO719z+Pz2hJ69PT8+OPu+Ne9i/5ElH+B8Wo84ZjRd7aAAAAAElFTkSuQmCC" alt=""></center>
+    <hr><hr><hr>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Bussiness.html">Bussiness</a></li>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Technology.html">Technology</a></li>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Politics.html">Politics</a></li>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Entertainment.html">Entertainment</a></li>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Education.html">Education</a></li>
+                <li><a href="http://127.0.0.1:5500/NewsPaper/Sports.html">Sports</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <h1 style="font-size: 60px;">POLITICS</h1>
+<main class="container"></main>
+
+    <div class="row">
+        <div class="col">
+        <h2 style="font-size: 25px;">Cong prez poll: Rahul, leaders part of Bharat Jodo Yatra to vote at campsite in Karnataka</h2>
+        <p>Former Congress chief Rahul Gandhi and 40 other leaders will vote in the party president's election at a Bharat Jodo Yatra campsite in Karnataka's Bellary on October 17.
+</p>
+    
+        <img src="https://images.hindustantimes.com/img/2022/10/08/550x309/rahu_1665218434028_1665224610400_1665224610400.JPG" alt="">
+        <p>Former Congress chief Rahul Gandhi and 40 other leaders will vote in the party president's election at a Bharat Jodo Yatra campsite in Karnataka's Bellary on October 17.</p>
+        <P>AICC general secretary, communications, Jairam Ramesh said the central election authority has decided to set up a polling booth at the camp site in Bellary where all delegates will cast their ballot.</P>
+        <P>The PCC delegates of Karnataka will cast their vote in Bengaluru on October 17, he said.
+
+            The yatra will move to Andhra Pradesh for three days on October 18 and cover a distance of 95 kilometres in the state. It will then return to Karnataka's Raichur.</P>
+    </div>
+    <div class="col">
+        <h3 style="font-size: 25px;">Congress' Bharat Jodo Yatra will have no impact: Karnataka CM</h3>
+        <p>The Congress' 'Bharat Jodo Yatra', which is currently passing through the poll bound Karnataka, with the participation from the party's top leadership - Sonia, Rahul and Priyanka Gandhi, "will have no impact", state's Chief Minister Basavaraj Bommai said on Thursday.</p>
+
+        <img src="https://images.hindustantimes.com/img/2022/10/06/550x309/3242d960-2dad-11ed-b063-b28d2006e403_1662446430683_1665045517733_1665045517733.jpg" alt="">
+        <p>The Congress' 'Bharat Jodo Yatra', which is currently passing through the poll bound Karnataka, with the participation from the party's top leadership - Sonia, Rahul and Priyanka Gandhi, "will have no impact", state's Chief Minister Basavaraj Bommai said on Thursday.</p>
+        <p>He rejected the claims that the ruling BJP was planning for rallies and state-wide tours of its leaders to counter the Congress' yatra, stating that they were planned much earlier.</p>
+        <p>"Naturally all party leaders will work for their own party, she (Sonia Gandhi) has walked for half-a-kilometer and gone, it's okay. As far as we are concerned, we have nothing to do with it and it doesn't make any impact," Bommai said in response to a question on the impact of Sonia, Priyanka and Rahul Gandhi's marching in the state as part of the yatra.</p>
+        <p>To a question on the ruling BJP planning rallies and state wide travel of its leaders, to counter Congress' yatra, he said these were all planned much earlier.</p>
+    </div>
+    <div class="col">
+        <h4 style="font-size: 25px;">‘Teachers in Karnataka ask why their culture is under attack’: Rahul Gandhi</h4>
+        <p>Congress leader Rahul Gandhi on Friday claimed that the teachers raised the issue of the Kannada language and culture being "under attack".</p>
+        <img src="https://images.hindustantimes.com/img/2022/10/08/550x309/ANI-20221007008-0_1665129204582_1665129204582_1665195904534_1665195904534.jpg" alt="">
+        <p>Congress leader Rahul Gandhi on Friday claimed that the teachers raised the issue of the Kannada language and culture being "under attack".</p>
+        <p>"I spoke to the teachers and students. The teachers said why government schools are being neglected. Why our culture, our 'Kannada' language is under attack? Why the glory of the history of Karnataka is being erased from textbooks Why our culture and history is being attacked and damaged?" Rahul said.</p>
+        <p>He said that the new NEP 2020 had been specially designed to undo everything that has been done in past 75 years. He continued to add that Communalisation, Centralisation & Commercialisation were the only agendas behind these monumental changes effected by the State & Central Governments.</p>
+    </div>
+</div>
+</body>
+</html>

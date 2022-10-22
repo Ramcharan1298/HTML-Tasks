@@ -1,0 +1,158 @@
+
+body{
+    background-image: url('https://comindesign.fr/wp-content/uploads/2018/08/website-design-slider-background-stockton.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 40px 150px rgb(224, 14, 84);
+    margin: 70px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1200px;
+    background: white;
+}
+.container .left_side{
+    position: relative;
+    background:goldenrod;
+    padding: 40px;
+}
+.proifle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+.profile .imgbx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.contactinfo h3{
+    font-family: fantasy;
+    font-size: 25px;
+}
+.contactinfo ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.contactinfo ul li{
+    font-size: 20px;
+}
+.education h3{
+    font-family: fantasy;
+}
+.education ul li{
+    font-size: 1em;
+    color: rgb(16, 16, 209);
+}
+.education ul li span{
+    font-size: 20px;
+    color: black;
+    
+}
+.language h3{
+    font-family: fantasy;
+}
+.language ul li{
+    font-size: 20px;
+    color: black;
+}
+.language ul li span{
+    font-size:15px;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+.container .right_side{
+    position: relative;
+    background: bisque;
+    padding: 40px;
+}
+
+h2{
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: -60px;
+}
+p{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+h1{
+    font-family: fantasy;
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+}
+.title2 ul li{
+    width: 600px;
+    height: 25px;
+    color: red;
+    background-color: powderblue;
+    border-radius: 9px;
+    list-style-type: none;
+}
+.title2 ul{
+    border-bottom: 1px solid black;
+    padding: 15px;
+    
+}
+
+
+.title3 h3{
+    font-family: fantasy;
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+}
+.about ul li {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.about ul p{
+    width: 600px;
+    height: 50px;
+    background-color: darkseagreen;
+    border-radius: 9px;
+}
+.about ul{
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.hobbies ul li{
+    width: 600px;
+    height: 25px;
+    background-color:lightpink;
+    border-radius: 9px;
+    list-style-type: none;
+}
+
