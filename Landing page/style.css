@@ -1,0 +1,82 @@
+body{
+    background-image: url('https://files.123freevectors.com/wp-content/original/131567-abstract-pink-polygon-background-template-design.jpg');
+}
+.nav-link{
+    color: azure;     
+}
+
+.navbar{
+    background-color: maroon;
+    position: sticky;
+    color: azure;
+}
+a:hover{
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10px;
+}
+
+    
+.navbar-brand{
+    background-color: black;
+    border-radius: 10px;
+}
+.dispaly-1{
+    font-family: 'Tourney', cursive;
+}
+.Search{
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.card{
+    border-radius: 30px;
+    
+    color:black;
+    
+}
+small{
+    color: red;
+}
+span{
+    color: chartreuse;
+}
+
+.bi{
+    color: gold;
+}
+
+
+
+/*Banner Page section*/
+.courses ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;   
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.courses ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.courses ul li{
+    margin: 0 2rem;
+    
+}
+
+
+
+/*.....search icon......*/
+
+.searchIcon{
+    position: relative;
+    right: 50px;
+    color: black;
+}

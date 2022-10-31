@@ -1,0 +1,91 @@
+body{
+    background-image: url('https://files.123freevectors.com/wp-content/original/131567-abstract-pink-polygon-background-template-design.jpg');
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    box-shadow: 0px 0px 70px rgb(12, 4, 4);
+    margin: 100px;
+    border-radius: 20px;
+    background-color: black;
+    
+}
+.header{
+    background-color: aqua;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    min-width: 300px;
+    box-shadow: 0 0 30px rgb(235, 14, 154);
+}
+.nav{
+    background-color: chartreuse;
+    border-radius: 10px;
+    box-shadow: 0 0 30px blue;
+}
+.personal{
+    background-color: bisque;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-end: 0;
+    box-shadow: 0 0 30px rgb(8, 234, 106);
+}
+.education{
+    background-color: royalblue;
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow: 0 0 30px rgb(246, 9, 33);
+    
+    
+}
+.experience{
+    background-color: rgb(224, 25, 158);
+    border-radius: 10px;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    min-height: 200px;
+    min-width: 150px;
+    box-shadow: 0 0 30px rgb(214, 250, 14);
+}
+.imgbx{
+    background-color: rgb(233, 111, 18);
+    border-radius: 10px;
+    grid-column-start: 3;
+    box-shadow: 0 0 30px rgb(14, 253, 126);
+}
+.skills{
+    background-color: rgb(224, 17, 17);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    min-height: 200px;
+    box-shadow: 0 0 30px rgb(13, 254, 37);
+}
+.language{
+    background-color: rgb(205, 240, 5);
+    border-radius: 10px;
+    grid-column-start: 3;
+    
+    box-shadow: 0 0 30px rgb(251, 11, 19);
+    
+}
+.interest{
+    background-color: rgb(16, 100, 89);
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    min-height: 100px;
+    box-shadow: 0 0 30px rgb(237, 96, 8);
+}
+.copyright{
+    background-color: brown;
+    border-radius: 10px;
+    min-width: 200px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}

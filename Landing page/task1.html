@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap" rel="stylesheet">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+    <div class="container">
+<nav class="navbar navbar-expand-md  navbar-dark" style="border-radius: 10px;">
+            
+              <a class="navbar-brand" href="#">
+                <img src="data:image/jpeg;base64,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" width=60px alt="Logo"  class="rounded-pill">
+              E-Courses</a>
+              
+              <nav class="navbar textColor">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-3" type="search" placeholder="Search for courses" aria-label="Search" style="width: 350px; border-radius: 15px;">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                  </form>                 
+                </div>                
+              </nav>
+              <ul class="nav justify-content-start">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color:azure">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color:azure">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:azure">
+                      Courses
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Python</a></li>
+                      <li><a class="dropdown-item" href="#">Java</a></li>
+                      <li><a class="dropdown-item" href="#">core Java</a></li>
+                      <li><a class="dropdown-item" href="#">C++</a></li>
+                    </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:azure">
+                          Tutorials
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Algorithms</a></li>
+                          <li><a class="dropdown-item" href="#">Data Structures</a></li>
+                          <li><a class="dropdown-item" href="#">Web Development</a></li>
+                          <li><a class="dropdown-item" href="#">Data Science</a></li>
+                          <li><a class="dropdown-item" href="#">Software Designs</a></li>
+                          <li><a class="dropdown-item" href="#">Javascript</a></li>
+                          <li><a class="dropdown-item" href="#">React.js</a></li>
+                        
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color:azure">Help</a>
+                          </li>
+                          
+                          
+                          
+                          <!---login-->
+                          <li class="nav-item">
+                            <li class="nav-item ">
+                                <button type="text" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
+                                    data-bs-placement="top" style="color: black; background-color: aquamarine; border-radius: 20px;">
+                                    LOGIN
+                                </button>
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" style="color: black; font-family:'Montserrat', sans-serif; background-color:rgb(11, 250, 23); border-radius: 10px;">LOGIN</h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body" style="color: black; border-radius: 25px; background-image: url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');">
+                                                <div class="form-group">
+                                                    <h4 style="margin-left: 140px; font-family: 'Montserrat', sans-serif;">Email:</h4> 
+                                                    <center><input type="email" class="form-control-1" id="email" value=""
+                                                        placeholder="Enter Email.@address" required style="border-radius: 10px;"></center>
+                                                </div>
+                                                <br>
+                                                <div class="form-group ">
+                                                   <h4 style="margin-left: 140px; font-family: 'Montserrat', sans-serif;">Password:</h4> 
+                                                    <center><input type="email" class="form-control-1 " id="PASSWORD" value=""
+                                                        placeholder="Enter your Password" required style="border-radius: 10px;"></center>
+                                                        <center><a href="#" style="text-decoration: none; color: azure;">Forgot Password?</a><a href="#">Sign Up</a></center><br>
+                                                        <center><a href="#" style="text-decoration: none; color: azure;">Create an Account</a></center>
+                                                </div>
+                                                <br>
+                                                <center><button class="btn btn-primary btn-md" style="background-color:aqua ; border-radius:10px; color: black;">SUBMIT</button></center>
+                                            </div>
+                    
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        
+                        
+                        
+                        <!----signup--->
+                        <li class="nav-item">
+                            <li class="nav_item">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signup"
+                                    data-bs-placement="top" style="color: black; background-color: aquamarine; border-radius: 20px;">
+                                    SIGNUP
+                                </button>
+                    
+                                <!-- The Modal -->
+                                <div class="modal" id="signup">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                    
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" style="color: black; font-family:'Montserrat', sans-serif; background-color:rgb(11, 250, 23); border-radius: 10px;">SIGNUP </h4>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                    
+                                            <!-- Modal body -->
+                                            <div class="modal-body" style="color: black; background-image:url('https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80')">
+                    
+                                                <div class="form-group">
+                                                    <label for="email" class="form-label">USERNAME</label>
+                                                    <input type="email" placeholder=" username " id="Username" required>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="password" class="form-label">PASSWORD</label>
+                                                    <input type="text" placeholder="enter your password" id="password" required>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label for="password" class="form-label">RE-ENTER YOUR PASSWORD</label>
+                                                    <input type="text" placeholder=" re-enter your password " id="password"
+                                                        required>
+                                                </div>
+                                                <br>
+                                                <div class="form-group">
+                                                    <label><input id="check_1" name="check_1" type="checkbox"
+                                                            placeholder="you must check the box" required>
+                                                        <snall>Read and agree the terms& conditions apply</snall>
+                                                    </label>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <button class=" btn btn-success ">Sign Up</button>
+                                            </div>
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          </li>
+                        </ul> 
+        </nav>
+              
+     
+        
+
+
+        <!--banner page--> 
+        <div class="row">
+                <div class="col-md-8">
+                    <h1 style="font-family: fantasy; text-align: center; margin-top: 60px;">Simply Easy Learning at<br>your fingertips</h1><br><br>
+                <div class="courses">
+                    <ul>
+                        <li><a href="#"><i class="bi bi-paypal" style="color:black;"></i>Prime Packs</a></li>
+                        <li><a href="#"><i class="bi bi-play-circle" style="color:black"></i>Courses</a></li>
+                        <li><a href="#"><i class="bi bi-book-half" style="color:black"></i>E-Books</a></li>
+                        <li><a href="#"><i class="bi bi-bookshelf" style="color:black"></i>Library</a></li>
+                        <li><a href="#"><i class="bi bi-wechat" style="color:black"></i>Q/Answers</a></li>
+                    </ul>
+                </div>
+                <div class="Search2">
+                    <form class="d-flex" role="search">
+                       <input class="form-control me-3 p-3" type="search" placeholder="Search for Your Favourate tutorials........." aria-label="Search" style="width: 700px; border-radius: 15px;" ><i class="bi bi-search pt-3 searchIcon" style="color: black" ></i>
+                    </form>
+                </div>
+                
+                
+                    <div class="sm">
+                        <img src="../images/premiumcourses.jpg" alt="" style="border-radius: 10px; padding-top:5px; margin: 12px;">
+                        <img src="../images/onlinecourses.jpg" alt="" style="border-radius: 10px; padding-top:5px;">
+                        <img src="../images/certificates.jpg" alt="" style="border-radius: 10px; padding-top:5px; margin:8px">
+                        <img src="../images/tutors.jpg" alt="" style="border-radius: 10px; padding-top:0px;">
+                    </div>
+                
+            
+                </div>
+                
+                <div class="col-sm-4">
+                    <img src="https://www.tutorialspoint.com/static/images/banner-img.png" alt="">
+                    
+                </div>
+              </div>
+            
+        
+        
+        
+        <!--carousel section-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://speedwayschoolsng.com/wp-content/uploads/2019/03/elearning-banner.jpg" class="d-block w-100 h-70" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/294/862/small/digital-courses-web-banner-design-student-watching-online-courses-online-education-digital-classroom-e-learning-concept-header-or-footer-banner-free-vector.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/294/877/small/education-knowledge-concept-web-banner-design-student-study-on-stack-of-books-with-trophy-and-graduation-roll-online-education-digital-classroom-e-learning-concept-header-or-footer-banner-free-vector.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>               
+              </div>
+              
+              <hr style="border: 1px solid black;">
+                
+
+
+
+
+            <!---Top categories-->
+
+            <fieldset style="border: 2px solid black;">
+                <div class="container">
+                    <center><h1 style="font-family: 'Tourney', cursive;"><i class="bi bi-grid-3x3" style="color: rgb(43, 0, 255);"></i>Top Categories</h1></center>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#"><img src="../images/development.jpg" alt="" style="border-radius: 20px; margin:10px; padding:5px;"></a>
+                            <a href="#"><img src="../images/networking.jpg" alt="" style="border-radius: 20px; margin:10px; padding:5px;"></a>
+                            
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#"><img src="../images/bussiness.jpg" alt="" style="border-radius: 20px; margin:10px; padding:5px;"></a>
+                            <a href="#"><img src="../images/marketing.jpg" alt="" style="border-radius: 20px; margin:10px; padding:5px;"></a>
+                           
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#"><img src="../images/cyber.jpg" alt="" style="border-radius: 20px; margin:10px; padding:5px;"></a>
+                            <a href="#"><img src="../images/office.jpg" alt="" style="border-radius: 20px; margin:10px; padding:5px;"></a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </fieldset><br><br>
+
+
+
+                
+                <!--Premium Page-->
+                <fieldset style="border: 2px solid black;">
+                <center><h1 style="font-family: 'Tourney', cursive; "><i class="bi bi-paypal" style="color:black"></i>REMIUM <span>PACKS</span></h1></center>
+                <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/4876/course_4876_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cyber Security Prime Pack</h5>
+                          <p class="card-text">Cyber Security made easy for absolute beginners - learn from an industry expert with PhD.(cyber security is easy)</p><hr>
+                          <b >4.4 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                          <p class="card-text">₹4,667.99<br><small><s>₹21,999.9</s></small></p>
+                          <a href="#" class="btn btn-dark"><i class="bi bi-cart2" style="color:azure"></i>Add To cart</a>&nbsp;&nbsp;&nbsp;
+                          <a href="#" class="btn btn-warning"><i class="bi bi-check-lg" style="color:azure"></i>Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/4870/course_4870_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Python Prime Pack</h5>
+                          <p class="card-text">Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!</p><hr>
+                          <b >4.4 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                          <p class="card-text">₹5,995.99<br><small><s>₹22,999.9</s></small></p>
+                          <a href="#" class="btn btn-dark"><i class="bi bi-cart2" style="color:azure"></i>Add To cart</a>&nbsp;&nbsp;&nbsp;
+                          <a href="#" class="btn btn-warning"><i class="bi bi-check-lg" style="color:azure"></i>Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/4873/course_4873_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Data Science Prime Pack</h5>
+                          <p class="card-text">Learn Data Science step by step through real Analytics examples. Data Mining, Modeling, Tableau Visualization and more!</p><hr>
+                          <b >3.8 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                          <i class="bi bi-star"></i>
+                          <p class="card-text">₹2,785.99<br><small><s>₹19,999.9</s></small></p>
+                          <a href="#" class="btn btn-dark"><i class="bi bi-cart2" style="color:azure"></i>Add To cart</a>&nbsp;&nbsp;&nbsp;
+                          <a href="#" class="btn btn-warning"><i class="bi bi-check-lg" style="color:azure"></i>Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/4986/course_4986_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Javascript Prime Pack</h5>
+                          <p class="card-text">Learn javascript online and supercharge your web design with this Javascript for beginners training course.</p><hr>
+                          <b >4.4 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                          <p class="card-text">₹6,885.99<br><small><s>₹25,999.9</s></small></p>
+                          <a href="#" class="btn btn-dark"><i class="bi bi-cart2" style="color:azure"></i>Add To cart</a>&nbsp;&nbsp;&nbsp;
+                          <a href="#" class="btn btn-warning"><i class="bi bi-check-lg" style="color:azure"></i>Buy Now</a>
+                          </div>
+                       </div>                
+                    </div>
+                </div>
+              </div>
+            </div>
+        </fieldset><br>
+
+
+
+
+         <!--Trending pages-->
+        
+            <center><h1 style="font-family: 'Tourney', cursive; color: rgb(244, 12, 12);"><i class="bi bi-align-top" style="color:red"></i>RENDING <span>COURSES</span></h1></center>
+                <div class="container">
+              <div class="row">
+                
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/6584/course_6584_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">HTML 5 and CSS3 Fundamentals</h5>
+                          <p class="card-text">Build a complete website</p><hr>
+                          <b >4.4 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                          <p class="card-text">₹499.99<br><small><s>₹2999.9</s></small></p>
+                          <a href="#" class="btn btn-success">Get Started</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/2346/course_2346_image.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SQL Masterclass</h5>
+                          <p class="card-text">Hand-Picked courses</p><hr>
+                          <b >4.0 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                          <p class="card-text">₹595.99<br><small><s>₹1299.9</s></small></p>
+                          <a href="#" class="btn btn-success">Get Started</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem; ">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/2705/course_2705_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">FUll Stack Java Developer</h5>
+                          <p class="card-text">Full Stack Java developer - Core Java + JSP Servlets +</p><hr>
+                          <b >4.2 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                          <p class="card-text">₹485.99<br><small><s>₹1999.9</s></small></p>
+                          <a href="#" class="btn btn-success">Get Started</a>
+                        </div>
+                      </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card m-3" style="width: 18rem;">
+                        <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/1895/course_1895_image.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Tableau Online Training</h5>
+                          <p class="card-text">Simply Easy Learning</p><hr>
+                          <b >4.0 </b><i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star"></i>
+                          <p class="card-text">₹685.99<br><small><s>₹3999</s></small></p>
+                          <a href="#" class="btn btn-success">Get Started</a>
+                        </div>
+                    </div>                
+                 </div>
+             </div>
+           </div>
+           
+         </div>
+         
+         
+         
+         
+         
+         
+         <div class="container" style="background-color: black">
+         <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-facebook" style="color:white"></i>
+        </a>
+        <a href="" class="me-4 text-reset" >
+          <i class="bi bi-twitter" style="color:white"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-google" style="color:white"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-instagram" style="color:white"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-linkedin" style="color:white"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="bi bi-github" style="color:white"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:white">
+              <img src="data:image/jpeg;base64,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" width=60px alt="Logo"  class="rounded-pill">">E-Learning
+            </h6>
+            <p style="color:white">
+                E-Learning is a leading Ed Tech company striving to provide the best learning material on technical and non-technical subjects.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:white">
+                ABOUT US
+            </h6>
+            <p style="color:white">
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Company</a>
+            </p>
+            <p style="color:white">
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Our Team</a>
+            </p>
+            <p style="color:white">
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Careers</a>
+            </p>
+            <p style="color:white">
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Helping</a>
+            </p>
+            <p style="color:white">
+                <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Become a Teacher</a>
+              </p>
+        </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="color:white">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              TERMS
+            </h6>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Terms of use</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Cookies Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Refund Policy</a>
+            </p>
+            <p>
+                <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>FAQ</a>
+              </p>
+        </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="color:white">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              EXTRA LINKS
+            </h6>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Dev Tools</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>Free Graphics</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>File Conversion</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>NetMeeting</a>
+            </p>
+          
+            <p>
+                <a href="#!" class="text-reset"><i class="bi bi-check-lg" style="color:rgb(236, 11, 150)"></i>whiteboard</a>
+              </p>
+            </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color:white">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">CONTACT</h6>
+            <p><i class="bi bi-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="bi bi-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="bi bi-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="bi bi-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: powderblue;">
+        Copyright © 2022.All rights reserved
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+                           
+     </div>
+</body>
+</html>
